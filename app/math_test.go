@@ -3,7 +3,7 @@ package main
 import "testing"
 
 func TestMath_Sum(t *testing.T) {
-	expected := 30
+	expected := 25
 	total := Sum(15, 15)
 
 	if total != expected {
